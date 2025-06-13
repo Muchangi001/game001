@@ -106,7 +106,7 @@ Res<Time>, Res<AssetServer>, Res<ButtonInput<KeyCode>>
 - Y: positive = up, negative = down
 - Z: higher = closer to camera (layering)
 
-### Common Gotchas
+### Gotchas (heheheee)
 1. Always add `Transform` component to sprites
 2. Use `time.delta().as_secs_f32()` for smooth movement
 3. Normalize direction vectors for consistent speed
